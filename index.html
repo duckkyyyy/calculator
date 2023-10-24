@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расчет совместимости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Рассчитайте совместимость по знаку зодиака и дате рождения!</h1>
+        <div class="calculator">
+            <div class="inputs">
+                <div class="zodiac-sign"> 
+                    <h2>Введите знак зодиака</h2>
+                        <div class="zodiacs">
+                            <div class="zodiac1">
+                                <p class="zodiac-name-1">Свой</p>
+                                    <select name="zodiac1" id="zodiac1" class="input-zodiac-1">
+                                        <option value="aries">Овен</option>
+                                        <option value="taurus">Телец</option>
+                                        <option value="gemini">Близнецы</option>
+                                        <option value="cancer">Рак</option>
+                                        <option value="leo">Лев</option>
+                                        <option value="virgo">Дева</option>
+                                        <option value="libra">Весы</option>
+                                        <option value="scorpio">Скорпион</option>
+                                        <option value="sagittarius">Стрелец</option>
+                                        <option value="capricorn">Козерог</option>
+                                        <option value="aquarius">Водолей</option>
+                                        <option value="pisces">Рыбы</option>
+                                    </select>
+                            </div>
+                            <div class="zodiac2">
+                                <p class="zodiac-name-2">Партнера</p>
+                                    <select name="zodiac2" id="zodiac2" class="input-zodiac-2">
+                                        <option value="aries">Овен</option>
+                                        <option value="taurus">Телец</option>
+                                        <option value="gemini">Близнецы</option>
+                                        <option value="cancer">Рак</option>
+                                        <option value="leo">Лев</option>
+                                        <option value="virgo">Дева</option>
+                                        <option value="libra">Весы</option>
+                                        <option value="scorpio">Скорпион</option>
+                                        <option value="sagittarius">Стрелец</option>
+                                        <option value="capricorn">Козерог</option>
+                                        <option value="aquarius">Водолей</option>
+                                        <option value="pisces">Рыбы</option>
+                                    </select>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="birthday-date"> 
+                    <h2>Введите дату рождения</h2>
+                        <div class="date">
+                            <div class="date1">
+                                <p class="date-name-1">Свою</p>
+                                    <input type="date" id="date1" class="input-date-1">
+                            </div>
+                            <div class="date2">
+                                <p class="date-name-2">Партнера</p>
+                                    <input type="date" id="date2" class="input-date-2">
+                            </div>
+                        </div>
+                </div>
+
+            <button id="button" class="button">Рассчитать</button>
+        </div>
+
+    <div class="results" hidden>
+        <div class="zodiac-result" id="zodiac-result"></div>
+        <div class="date-result" id="date-result"></div>
+        <div class="final-result" id="final-result"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

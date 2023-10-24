@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9e0f2;
+}
+
+h1 {
+    margin: 50px 10px 50px 100px;
+}
+
+h2{
+    margin: 0 10px 10px 0;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.zodiac-sign {
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    margin: 10px 10px 10px 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.zodiacs{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.zodiac-name-1 {
+    margin: 10px 10px 10px 0;
+}
+/* .zodiac1 {
+
+} */
+.input-zodiac-1 {
+    width:140px;
+    height:20px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.zodiac-name-2 {
+    margin: 10px 10px 10px 0;
+}
+/* .zodiac2 {
+    
+} */
+.input-zodiac-2 {
+    width:140px;
+    height:20px;
+    border:1px solid #000;
+    border-radius: 5px;
+    
+}
+
+.birthday-date {
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    margin: 10px 10px 10px 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.date{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.date-name-1 {
+    margin: 10px 10px 10px 0;
+}
+/* .date1 {
+
+} */
+.input-date-1 {
+    width:140px;
+    height:20px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.date-name-2 {
+    margin: 10px 10px 10px 0;
+}
+/* .date2 {
+
+} */
+.input-date-2 {
+    width:140px;
+    height:20px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+
+.button {
+    width:140px;
+    height:40px;
+    padding: 10px;
+    border:1px solid #000;
+    border-radius: 5px;
+    margin: 10px 10px 10px 100px;
+    background-color: #eaacd8;
+}
+
+.zodiac-result {
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.date-result {
+    width: 500px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.final-result {
+    width: 500px;
+    font-size: 32px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #eaacd8;
+}
+.results {
+    margin: 10px;
+}
